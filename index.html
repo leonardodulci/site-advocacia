@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dr. Nome Sobrenome — Advogado</title>
+  <meta name="description" content="Atuação em Direito Cível, Trabalhista e Família. Atendimento humanizado e estratégico. Agende uma consulta." />
+  <meta name="theme-color" content="#1e2a44" />
+
+  <!-- Open Graph (opcional) -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Dr. Nome Sobrenome — Advogado" />
+  <meta property="og:description" content="Atuação em Direito Cível, Trabalhista e Família. Atendimento humanizado e estratégico." />
+  <meta property="og:image" content="assets/og-image.jpg" />
+
+  <!-- Tipografia (opcional) -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&family=Merriweather:wght@700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body id="topo">
+
+  <!-- Header -->
+  <header>
+    <div class="container nav">
+      <a href="#topo" class="brand">
+        <img class="logo" src="img/logo-adv.png" alt="Logo do escritório" loading="lazy">
+        <span class="title">
+          <b>Dr. Nome Sobrenome</b>
+          <span>OAB 00.000 • Advogado</span>
+        </span>
+      </a>
+
+      <button class="menu-toggle" aria-label="Abrir menu" id="menuToggle">☰</button>
+
+      <nav aria-label="Navegação principal">
+        <ul id="menuList">
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#sobre">Quem sou</a></li>
+          <li><a href="#areas">Áreas</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-cta">
+        <a class="btn btn-ghost" href="#contato">Agendar consulta</a>
+        <a class="btn btn-primary" id="ctaHeader">WhatsApp</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <main id="inicio" class="container hero">
+    <section>
+      <span class="badge">Atendimento presencial e online</span>
+      <h1>Estratégia jurídica com foco em resultado e atendimento humano</h1>
+      <p class="lead">Atuação em Direito de Família, Cível e Trabalhista. Transparência em cada etapa do processo, linguagem clara e compromisso com o seu caso.</p>
+      <div class="actions">
+        <a class="btn btn-primary" id="ctaHero">Falar no WhatsApp</a>
+        <a class="btn btn-ghost" href="#contato">Enviar mensagem</a>
+      </div>
+      <div class="proofs">
+        <span class="badge">OAB • 00.000</span>
+        <span class="badge">+300 clientes atendidos</span>
+        <span class="badge">Tempo médio de resposta: 1h</span>
+      </div>
+    </section>
+    <aside class="media" aria-hidden="true">
+      <img src="img/aperto-de-mão.jpg" alt="Advogado em atendimento no escritório" loading="lazy">
+    </aside>
+  </main>
+
+  <!-- Quem sou -->
+  <section id="sobre" class="about">
+    <div class="container about-grid">
+      <div class="photo">
+        <img src="img/adv-richard.jpg" alt="Foto do advogado" loading="lazy">
+      </div>
+      <div>
+        <h2>Quem sou</h2>
+        <p>Sou advogado com atuação em <strong>Direito de Família, Cível e Trabalhista</strong>. Acredito que um bom atendimento começa com escuta ativa e comunicação clara, para que você entenda cada passo do seu caso.</p>
+        <p>Busco soluções eficazes — seja pela via consensual, quando possível, ou litigiosa, quando necessária — sempre com ética e transparência.</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum ipsam doloremque quia molestiae eveniet error? Ipsum accusamus voluptates consequatur perferendis assumenda facere repellat eos, deserunt illo neque, amet rem vero.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo veritatis, consequuntur quaerat cumque enim sunt! Excepturi, sunt? Animi nobis placeat veniam at quae nesciunt ducimus. Earum nemo nesciunt minus assumenda..</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus est nam minus rerum laboriosam aut repudiandae quibusdam dolorum, ut vitae error, odio perspiciatis adipisci! Sit amet aliquid fugiat? Porro, magni.</p>
+
+        <div class="badges">
+          <span class="badge">Consulta por videoconferência</span>
+          <span class="badge">Relatórios claros do andamento</span>
+          <span class="badge">Atendimento humanizado</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Áreas de atuação -->
+  <section id="areas" class="areas container">
+    <h2 class="section-title">Áreas de atuação</h2>
+
+    <div class="areas-grid">
+      <article class="area-card">
+        <img src="img/area-familia.png" alt="Direito de Família">
+        <div>
+          <h3>Família</h3>
+          <p>Divórcio, guarda, pensão, visitas, reconhecimento e dissolução de união estável.</p>
+        </div>
+      </article>
+
+      <article class="area-card">
+        <img src="img/area-civel.png" alt="Direito Cível">
+        <div>
+          <h3>Cível</h3>
+          <p>Contratos, cobranças, responsabilidade civil, danos morais e materiais.</p>
+        </div>
+      </article>
+
+      <article class="area-card">
+        <img src="img/area-trabalhista.png" alt="Direito Trabalhista">
+        <div>
+          <h3>Trabalhista</h3>
+          <p>Reclamações trabalhistas, verbas rescisórias, horas extras e estabilidade.</p>
+        </div>
+      </article>
+
+      <article class="area-card">
+        <img src="img/area-consumidor.png" alt="Direito do Consumidor">
+        <div>
+          <h3>Consumidor</h3>
+          <p>Cobranças indevidas, negativação indevida, vício de produto e serviço.</p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- Diferenciais -->
+  <section class="trust container">
+    <div class="chips">
+      <span class="badge">Contrato digital e seguro</span>
+      <span class="badge">Pagamento facilitado</span>
+      <span class="badge">Transparência total</span>
+    </div>
+  </section>
+
+  <!-- Contato -->
+  <section id="contato" class="contact">
+    <div class="container contact-grid">
+      <div class="card">
+        <h2 class="section-title" style="text-align:left; margin-bottom:.8rem;">Entre em contato</h2>
+        <form id="contactForm" novalidate>
+          <div class="row">
+            <div>
+              <label for="nome">Nome</label>
+              <input id="nome" name="nome" type="text" placeholder="Seu nome completo" required>
+            </div>
+            <div>
+              <label for="email">E-mail</label>
+              <input id="email" name="email" type="email" placeholder="seu@email.com" required>
+            </div>
+          </div>
+          <div class="row">
+            <div>
+              <label for="telefone">Telefone</label>
+              <input id="telefone" name="telefone" type="tel" placeholder="(DDD) 9 9999-9999" pattern="^[0-9()+ \\-]{8,}$" required>
+            </div>
+            <div>
+              <label for="assunto">Assunto</label>
+              <input id="assunto" name="assunto" type="text" placeholder="Ex.: Pensão alimentícia" required>
+            </div>
+          </div>
+          <div class="row single">
+            <div>
+              <label for="mensagem">Mensagem</label>
+              <textarea id="mensagem" name="mensagem" placeholder="Descreva resumidamente sua demanda" required></textarea>
+            </div>
+          </div>
+          <div class="form-actions">
+            <button type="submit" class="btn btn-primary">Enviar via WhatsApp</button>
+            <a id="ctaContato" class="btn btn-ghost">Chamar no WhatsApp</a>
+            <span class="form-note">Ao enviar, você será redirecionado para o WhatsApp com a mensagem preenchida.</span>
+          </div>
+        </form>
+      </div>
+
+      <aside class="contact-aside">
+        <div class="tile">
+          <img src="img/clock.png" alt="Escritório">
+          <div>
+            <h4>Atendimento</h4>
+            <p>Presencial e online, com horário marcado.</p>
+          </div>
+        </div>
+        <div class="tile">
+          <img src="img/map.png" alt="Localização">
+          <div>
+            <h4>Localização</h4>
+            <p>Rua Exemplo, 123 • Centro • Sua Cidade/UF</p>
+          </div>
+        </div>
+        <div class="tile">
+          <img src="img/office.png" alt="Horários">
+          <div>
+            <h4>Horários</h4>
+            <p>Seg a Sex, 9h às 18h</p>
+          </div>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container footer-row">
+      <small class="small">© <span id="year"></span> Dr. Nome Sobrenome — OAB 00.000. Todos os direitos reservados.</small>
+      <small class="small">* Frase de efeito *</small>
+    </div>
+  </footer>
+
+  <!-- WhatsApp flutuante -->
+  <div class="whatsapp-float">
+    <a id="ctaFloat">
+      <img src="img/whatsapp.png" alt="" aria-hidden="true">
+      <span>WhatsApp</span>
+    </a>
+  </div>
+</body>
+
+  <script type="module" defer src="script.js"></script>
+
+</html>
